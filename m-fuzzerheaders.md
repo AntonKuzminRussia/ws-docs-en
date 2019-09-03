@@ -11,14 +11,14 @@ Module work only in «raw» mode.
 | Name | By default | Description |
 | :--- | :--- | :--- |
 | --urls-file \* |  | Path to already known URLs list. Host of this URLs and target host may not be equal. |
-| --proxies |  | Да | Да | HTTP-proxy list. |
-| --retest-re |  | Да | Да | RegEx (python.re) for check if request repeat is need. For example «Service Temporarily Unavailable». |
-| --retest-codes |  | Да | Нет | Set of status codes (separated by comma) as signature for request re-send. |
-| --headers-file |  | Да | Нет | File with HTTP headers for put it in work requests. |
-| --msymbol | @ | Да | Да | Mark symbol for search template (--template) |
-| --delay | 0 | Да | Да | Delay in seconds  between requests. It`s options not for all threads together, it`s for every thread separately. |
-| --threads | 10 | Да | Да | Work threads count. |
-| --parts | 0 | Да | Да | Split on X parts target dict or mask. |
-| --part | 0 | Да | Да | Which part number we using in work? |
-| --test | 0 | Да | Да | Test mode enable |
-| --xml-report | 0 | Да | Да | Path to save xml-report |
+| --proxies |  | Yes | Yes | HTTP-proxy list. |
+| --retest-re |  | Yes | Yes | RegEx (python.re) for check if request repeat is need. For example «Service Temporarily Unavailable». |
+| --retest-codes |  | Yes | No | Set of status codes (separated by comma) as signature for request re-send. |
+| --headers-file |  | Yes | No | File with HTTP headers for put it in work requests. |
+| --msymbol | @ | Yes | Yes | Mark symbol for search template (--template) |
+| --delay | 0 | Yes | Yes | Delay in seconds  between requests. It`s options not for all threads together, it`s for every thread separately. |
+| --threads | 10 | Yes | Yes | Work threads count. |
+| --parts | 0 | Yes | Yes | Split on X parts target dict or mask. |
+| --part | 0 | Yes | Yes | Which part number we using in work? |
+| --test | 0 | Yes | Yes | Test mode enable |
+| --xml-report | 0 | Yes | Yes | Path to save xml-report |

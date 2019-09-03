@@ -28,28 +28,28 @@ Module working in «raw» and «selenium» modes.
 
 | Name | By default | R | S | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| --template \* |  | Да | Да | Template for work with mark symbol (@ by default) in place, where target phrase will be put. For example:  «http://site.com/@», «https://site.com/@.php». |
-| --dict \* |  | Да | Да | For DafsDict. Path to dictionary |
-| --mask \* |  | Да | Да | For DafsMask. Symbols mask. |
-| --combine-template \* |  | Да | Да | for DafsCombine. Template for combined work. String with markers «%m%» and «%d%», which is place for dict word and mask word. |
-| --found-re |  | Да | Да | RegEx (python.re) for check positive web-server response (code 200 analogue) |
-| --not-found-re |  | Да | Да | RegEx (python.re) for check negative web-server response  (code 404 analogue)  |
-| --not-found-size |  | Да | Да | Size of negative answer (code 404 analogue). Remember, this size can be different in different tools. Use test mode for get right size. |
-| --not-found-codes |  | Да | Нет | Status codes, analogues of 404. Separated by comma. |
-| --method | GET | Да | Нет | HTTP-method for work: HEAD, POST, GET. |
-| --proxies |  | Да | Да | HTTP-proxy list. |
-| --retest-re |  | Да | Да | RegEx (python.re) for check if request repeat is need. For example «Service Temporarily Unavailable». |
-| --retest-codes |  | Да | Нет | Set of status codes (separated by comma) as signature for request re-send. |
-| --headers-file |  | Да | Нет | File with HTTP headers for put it in work requests. |
-| --ignore-words-re |  | Да | Да | RegEx (python.re) for ignoring target phrases. May be useful when you don't want check some phrases, for example contains “.ht”. |
-| --msymbol | @ | Да | Да | Mark symbol for search template (--template) |
-| --delay | 0 | Да | Да | Delay in seconds  between requests. It`s options not for all threads together, it`s for every thread separately. |
-| --threads | 10 | Да | Да | Work threads count. |
-| --parts | 0 | Да | Да | Split on X parts target dict or mask. |
-| --part | 0 | Да | Да | Which part number we using in work? |
-| --test | 0 | Да | Да | Test mode enable |
-| --xml-report | 0 | Да | Да | Path to save xml-report |
-| --selenium | 0 | Нет | Да | Selenium-mode enable |
-| --browser-recreate-re |  | Нет | Да | RegEx (python.re) for detect browser recreation need. If you using proxies, browser select new one. |
-| --browser-wait-re |  | Нет | Да | RegEx (python.re). If match, browser stop working and will wait for match disappear. You may use it for solve captcha by hands or wait for anti-ddos check («wait 5 secs, we check your browser»). |
+| --template \* |  | Yes | Yes | Template for work with mark symbol (@ by default) in place, where target phrase will be put. For example:  «http://site.com/@», «https://site.com/@.php». |
+| --dict \* |  | Yes | Yes | For DafsDict. Path to dictionary |
+| --mask \* |  | Yes | Yes | For DafsMask. Symbols mask. |
+| --combine-template \* |  | Yes | Yes | for DafsCombine. Template for combined work. String with markers «%m%» and «%d%», which is place for dict word and mask word. |
+| --found-re |  | Yes | Yes | RegEx (python.re) for check positive web-server response (code 200 analogue) |
+| --not-found-re |  | Yes | Yes | RegEx (python.re) for check negative web-server response  (code 404 analogue)  |
+| --not-found-size |  | Yes | Yes | Size of negative answer (code 404 analogue). Remember, this size can be different in different tools. Use test mode for get right size. |
+| --not-found-codes |  | Yes | No | Status codes, analogues of 404. Separated by comma. |
+| --method | GET | Yes | No | HTTP-method for work: HEAD, POST, GET. |
+| --proxies |  | Yes | Yes | HTTP-proxy list. |
+| --retest-re |  | Yes | Yes | RegEx (python.re) for check if request repeat is need. For example «Service Temporarily Unavailable». |
+| --retest-codes |  | Yes | No | Set of status codes (separated by comma) as signature for request re-send. |
+| --headers-file |  | Yes | No | File with HTTP headers for put it in work requests. |
+| --ignore-words-re |  | Yes | Yes | RegEx (python.re) for ignoring target phrases. May be useful when you don't want check some phrases, for example contains “.ht”. |
+| --msymbol | @ | Yes | Yes | Mark symbol for search template (--template) |
+| --delay | 0 | Yes | Yes | Delay in seconds  between requests. It`s options not for all threads together, it`s for every thread separately. |
+| --threads | 10 | Yes | Yes | Work threads count. |
+| --parts | 0 | Yes | Yes | Split on X parts target dict or mask. |
+| --part | 0 | Yes | Yes | Which part number we using in work? |
+| --test | 0 | Yes | Yes | Test mode enable |
+| --xml-report | 0 | Yes | Yes | Path to save xml-report |
+| --selenium | 0 | No | Yes | Selenium-mode enable |
+| --browser-recreate-re |  | No | Yes | RegEx (python.re) for detect browser recreation need. If you using proxies, browser select new one. |
+| --browser-wait-re |  | No | Yes | RegEx (python.re). If match, browser stop working and will wait for match disappear. You may use it for solve captcha by hands or wait for anti-ddos check («wait 5 secs, we check your browser»). |
 
