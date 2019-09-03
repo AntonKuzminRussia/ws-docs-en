@@ -21,18 +21,18 @@ After marker string must contains tab-symbol \(\t\). And after that, put there C
 
 With this configuration WS put login in text field id=user, password go to text field id=pass. After that WS will click by element id=submit.
 
-### Options \(\* - обязательные\)
+## Options \(\* - necessary\)
 
 {% hint style="info" %}
 Params «-conf-file», «--conf-str» - you must specify one of them. Params «--true-phrase», «--false-phrase», «--false-size» too.
 {% endhint %}
 
 {% hint style="info" %}
-**R** - присутствует ли в raw режиме  
-**S** - присутствует ли в selenium режиме.
+**R** - available in raw mode  
+**S** - available in Selenium mode.
 {% endhint %}
 
-| Имя | По умолчанию | R | S | Описание |
+| Name | By default | R | S | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | --url \* |  | Да | Да | Target URL |
 | --dict \* |  | Да | Да | Path to dict |

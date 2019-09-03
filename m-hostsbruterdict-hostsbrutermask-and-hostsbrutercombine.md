@@ -8,9 +8,9 @@ Module can search objects by mask, dictionary and by combination \(mask + dict\)
 
 Module works only in «raw» mode.
 
-### Опции \(\* - обязательные\)
+### Options \(\* - necessary\)
 
-| Имя | По умолчанию | Описание |
+| Name | By default | Description |
 | :--- | :--- | :--- |
 | --template \* |  | Template for work with mark symbol (@ by default) in place, where target phrase will be put. Examples:  «@.site.com», «@-admin.site.com». |
 | --dict \* |  | For HostsBruterDict. Path to dict. |

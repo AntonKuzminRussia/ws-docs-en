@@ -19,9 +19,14 @@ Module can search objects by mask, dictionary and by combination \(mask + dict\)
 
 Module working in «raw» and «selenium» modes.
 
-### Опции \(\* - обязательно\)
+### Options \(\* - necessary\)
 
-| Имя | По умолчанию | raw | selenium | Описание |
+{% hint style="info" %}
+**R** - available in raw mode  
+**S** - available in Selenium mode.
+{% endhint %}
+
+| Name | By default | R | S | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | --template \* |  | Да | Да | Template for work with mark symbol (@ by default) in place, where target phrase will be put. For example:  «http://site.com/@», «https://site.com/@.php». |
 | --dict \* |  | Да | Да | For DafsDict. Path to dictionary |

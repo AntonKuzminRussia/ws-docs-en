@@ -14,9 +14,14 @@ Module can search objects by mask, dictionary and by combination \(mask + dict\)
 
 Module working in «raw» and «selenium» modes.
 
-### Опции \(\* - обязательно\)
+### Options \(\* - necessary\)
 
-| Имя | По умолчанию | raw | selenium | Описание |
+{% hint style="info" %}
+**R** - available in raw mode  
+**S** - available in Selenium mode.
+{% endhint %}
+
+| Name | By default | R | S | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | --url \* |  | Да | Да | Target URL |
 | --params-method \* |  | Да | Да | Search method: GET, POST, COOKIES, FILES |

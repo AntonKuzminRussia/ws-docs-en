@@ -6,11 +6,16 @@ Module using for URLs params fuzzing. It works by GET mode at this time. You mus
 
 Module works in «raw» and «selenium» modes.
 
-## Опции \(\* - обязательные\)
+### Options \(\* - necessary\)
 
-| Имя | По умолчанию | Описание |
+{% hint style="info" %}
+**R** - присутствует ли в raw режиме  
+**S** - присутствует ли в selenium режиме.
+{% endhint %}
+
+| Name | By default | R | S | Description |
 | :--- | :--- | :--- |
-| --urls-file \* |  | Path to already known URLs list. Host of this URLs and target host may not be equal. |
+| --urls-file \* |  | Yes | Yes | Path to already known URLs list. Host of this URLs and target host may not be equal. |
 | --proxies |  | Да | Да | HTTP-proxy list. |
 | --retest-re |  | Да | Да | RegEx (python.re) for check if request repeat is need. For example «Service Temporarily Unavailable». |
 | --retest-codes |  | Да | Нет | Set of status codes (separated by comma) as signature for request re-send. |
@@ -25,4 +30,5 @@ Module works in «raw» and «selenium» modes.
 | --selenium | 0 | Нет | Да | Selenium-mode enable |
 | --browser-recreate-re |  | Нет | Да | RegEx (python.re) for detect browser recreation need. If you using proxies, browser select new one. |
 | --browser-wait-re |  | Нет | Да | RegEx (python.re). If match, browser stop working and will wait for match disappear. You may use it for solve captcha by hands or wait for anti-ddos check («wait 5 secs, we check your browser»). |
+
 

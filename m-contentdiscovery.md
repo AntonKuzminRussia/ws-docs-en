@@ -42,9 +42,14 @@ If letter in the beginning of the name, module generate variants with all letter
 All other options you may get in DafsDict docs
 {% endhint %}
 
-### Опции \(\* - обязательные\)
+### Options \(\* - necessary\)
 
-| Имя | По умолчанию | raw | selenium | Описание |
+{% hint style="info" %}
+**R** - available in raw mode  
+**S** - available in Selenium mode.
+{% endhint %}
+
+| Name | By default | R | S | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | --urls-file |  | Да | Да | Path to already known URLs list. Host of this URLs and target host may not be equal. |
 | --discovery-exts | php,html,js,log,txt | Да | Да | Extensions list for names generation. |

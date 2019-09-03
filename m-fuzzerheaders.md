@@ -6,9 +6,9 @@ Module using for HTTP headers fuzzing with one or multiple URLs. All list of hea
 
 Module work only in «raw» mode.
 
-## Опции \(\* - обязательные\)
+### Options \(\* - necessary\)
 
-| Имя | По умолчанию | Описание |
+| Name | By default | Description |
 | :--- | :--- | :--- |
 | --urls-file \* |  | Path to already known URLs list. Host of this URLs and target host may not be equal. |
 | --proxies |  | Да | Да | HTTP-proxy list. |
