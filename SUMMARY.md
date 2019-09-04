@@ -23,4 +23,5 @@
 * [XML-reports](xml-reports.md)
 * [Work modes](work-modes.md)
 * [Authors / Contacts](authors-contacts.md)
+* [Troubleshooting](troubleshooting.md)
 

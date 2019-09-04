@@ -1,6 +1,6 @@
 # \[M\] DnsBruterDict, DnsBruterMask & DnsBruterCombine
 
-### Common description
+## Common description
 
 Modules using for subdomains search by bruteforce methods. Contains functions for search throw wildcard records.
 
@@ -14,28 +14,27 @@ Module can search objects by mask, dictionary and by combination \(mask + dict\)
 
 Working only raw mode.
 
-### Options \(\* - necessary\)
+## Options \(\* - necessary\)
 
-| Name | By default | Description |
-| :--- | :--- | :--- |
-| --template \* |  | Template for work with mark symbol (@ by default) in place, where target phrase will be put. Examples:  «@.site.com», «@-admin.site.com». |
-| --dict \* |  | For DnsBruterDict. Path to dict. |
-| --mask \* |  | For DnsBruterMask. Symbols mask. |
-| --combine-template \* |  | For DnsBruterCombine. Template for combined work. String with markers «%m%» and «%d%», which is place for dict word and mask word. |
-| --dns-protocol | auto | Protocol for DNS servers. May be «udp», «tcp», «auto». If «auto», servers first check for TCP support. If it not — using UDP. If some server not response on TCP/UDP requests — it ignoring. |
-| --zone | A | DNS-zone for bruteforce. It may be «А» and «CNAME». |
-| --http-not-found-re |  | RegEx (python.re) for detect «not found» responses. Using in work with wildcard zones. If you set it, WS will send HTTP GET / to every founded host. |
-| --http-protocol | http | Protocol for sending HTTP GET / requests. «http»/«https». |
-| --http-proxies |  | Proxies list |
-| --http-retest-re |  | RegEx (python.re) for check HTTP response if request repeat is need. For example «Service Temporarily Unavailable». |
-| --headers-file |  | File with HTTP headers for put it in work requests. |
-| --ignore-ip |  | WS will ignore this IP in positive detections. For wildcard zones. |
-| --msymbol | @ | Yes | Yes | Mark symbol for search template (--template) |
+| Name | By default | Description |  |  |
+| :--- | :--- | :--- | :--- | :--- |
+| --template \* |  | Template for work with mark symbol \(@ by default\) in place, where target phrase will be put. Examples:  «@.site.com», «@-admin.site.com». |  |  |
+| --dict \* |  | For DnsBruterDict. Path to dict. |  |  |
+| --mask \* |  | For DnsBruterMask. Symbols mask. |  |  |
+| --combine-template \* |  | For DnsBruterCombine. Template for combined work. String with markers «%m%» and «%d%», which is place for dict word and mask word. |  |  |
+| --dns-protocol | auto | Protocol for DNS servers. May be «udp», «tcp», «auto». If «auto», servers first check for TCP support. If it not — using UDP. If some server not response on TCP/UDP requests — it ignoring. |  |  |
+| --zone | A | DNS-zone for bruteforce. It may be «А» and «CNAME». |  |  |
+| --http-not-found-re |  | RegEx \(python.re\) for detect «not found» responses. Using in work with wildcard zones. If you set it, WS will send HTTP GET / to every founded host. |  |  |
+| --http-protocol | http | Protocol for sending HTTP GET / requests. «http»/«https». |  |  |
+| --http-proxies |  | Proxies list |  |  |
+| --http-retest-re |  | RegEx \(python.re\) for check HTTP response if request repeat is need. For example «Service Temporarily Unavailable». |  |  |
+| --headers-file |  | File with HTTP headers for put it in work requests. |  |  |
+| --ignore-ip |  | WS will ignore this IP in positive detections. For wildcard zones. |  |  |
+| --msymbol | @ | Yes | Yes | Mark symbol for search template \(--template\) |
 | --delay | 0 | Yes | Yes | Delay in seconds  between requests. It`s options not for all threads together, it`s for every thread separately. |
 | --threads | 10 | Yes | Yes | Work threads count. |
 | --parts | 0 | Yes | Yes | Split on X parts target dict or mask. |
 | --part | 0 | Yes | Yes | Which part number we using in work? |
 | --test | 0 | Yes | Yes | Test mode enable |
 | --xml-report | 0 | Yes | Yes | Path to save xml-report |
-
 
