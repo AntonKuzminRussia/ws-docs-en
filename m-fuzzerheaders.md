@@ -16,10 +16,8 @@ Module work only in «raw» mode.
 | --retest-codes |  | Yes | No | Set of status codes \(separated by comma\) as signature for request re-send. |
 | --headers-file |  | Yes | No | File with HTTP headers for put it in work requests. |
 | --msymbol | @ | Yes | Yes | Mark symbol for search template \(--template\) |
-| --delay | 0 | Yes | Yes | Delay in seconds  between requests. It`s options not for all threads together, it`s for every thread separately. |
+| --delay | 0 | Yes | Yes | Delay in seconds between requests. It's options not for all threads together, it's for every thread separately. |
 | --threads | 10 | Yes | Yes | Work threads count. |
-| --parts | 0 | Yes | Yes | Split on X parts target dict or mask. |
-| --part | 0 | Yes | Yes | Which part number we using in work? |
 | --test | 0 | Yes | Yes | Test mode enable |
 | --xml-report | 0 | Yes | Yes | Path to save xml-report |
 
