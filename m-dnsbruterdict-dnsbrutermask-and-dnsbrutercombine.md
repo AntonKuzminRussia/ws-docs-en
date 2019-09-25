@@ -19,8 +19,8 @@ Working only raw mode.
 | Name | By default | Description |  |  |
 | :--- | :--- | :--- | :--- | :--- |
 | --template \* |  | Template for work with mark symbol \(@ by default\) in place, where target phrase will be put. Examples:  «@.site.com», «@-admin.site.com». |  |  |
-| --dict \* |  | For DnsBruterDict. Path to dict. |  |  |
-| --mask \* |  | For DnsBruterMask. Symbols mask. |  |  |
+| --dict \* |  | For DnsDict. Path to dict. |  |  |
+| --mask \* |  | For DnsMask. Symbols mask. |  |  |
 | --combine-template \* |  | For DnsBruterCombine. Template for combined work. String with markers «%m%» and «%d%», which is place for dict word and mask word. |  |  |
 | --dns-protocol | auto | Protocol for DNS servers. May be «udp», «tcp», «auto». If «auto», servers first check for TCP support. If it not — using UDP. If some server not response on TCP/UDP requests — it ignoring. |  |  |
 | --zone | A | DNS-zone for bruteforce. It may be «А» and «CNAME». |  |  |

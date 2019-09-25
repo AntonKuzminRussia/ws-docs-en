@@ -13,9 +13,9 @@ Module works only in «raw» mode.
 | Name | By default | Description |  |  |
 | :--- | :--- | :--- | :--- | :--- |
 | --template \* |  | Template for work with mark symbol \(@ by default\) in place, where target phrase will be put. Examples:  «@.site.com», «@-admin.site.com». |  |  |
-| --dict \* |  | For HostsBruterDict. Path to dict. |  |  |
-| --mask \* |  | For HostsBruterMask. Symbols mask. |  |  |
-| --combine-template \* |  | For HostsBruterCombine. Template for combined work. String with markers «%m%» and «%d%», which is place for dict word and mask word. |  |  |
+| --dict \* |  | For HostsDict. Path to dict. |  |  |
+| --mask \* |  | For HostsMask. Symbols mask. |  |  |
+| --combine-template \* |  | For HostsCombine. Template for combined work. String with markers «%m%» and «%d%», which is place for dict word and mask word. |  |  |
 | --ip \* |  | Traget IP. |  |  |
 | --false-re \* |  | Yes | Yes | RegEx \(python.re\) for detect negative answers. |
 | --false-size \* |  | Yes | Yes | Size of negative answer \(code 404 analogue\). Remember, this size can be different in different tools. Use test mode for get right size. |
