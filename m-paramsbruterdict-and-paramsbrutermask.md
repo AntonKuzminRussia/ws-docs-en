@@ -1,4 +1,4 @@
-# \[M\] ParamsBruterDict and ParamsBruterMask
+# \[M\] ParamsDict and ParamsMask
 
 ## Common description
 

@@ -1,4 +1,4 @@
-# \[M\] HostsBruterDict, HostsBruterMask & HostsBruterCombine
+# \[M\] HostsDict, HostsMask & HostsCombine
 
 ## Common description
 

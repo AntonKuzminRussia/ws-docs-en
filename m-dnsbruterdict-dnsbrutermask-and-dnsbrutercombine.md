@@ -1,4 +1,4 @@
-# \[M\] DnsBruterDict, DnsBruterMask & DnsBruterCombine
+# \[M\] DnsDict, DnsMask & DnsCombine
 
 ## Common description
 
