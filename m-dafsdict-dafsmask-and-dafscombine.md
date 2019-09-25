@@ -27,6 +27,12 @@ Simple search by dict:
 ./main.py UrlsDict --template http://simple.polygon.web-scout.online/@ --dict bases/demo/dict.txt
 ```
 
+Simple search by mask:
+
+```text
+./main.py UrlsMask --template http://simple.polygon.web-scout.online/@ --mask ?l,1,4
+```
+
 Search by dict in selenium mode:
 
 ```text
