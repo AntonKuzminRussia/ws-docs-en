@@ -25,6 +25,12 @@ git clone https://github.com/AntonKuzminRussia/web-scout.git
 cd web-scout
 ```
 
+### virtualenv
+
+virtualenv env   
+source env/bin/activate   
+pip intall -r requirements.txt
+
 ### From source codes
 
 You can get source codes on [https://github.com/AntonKuzminRussia/web-scout](https://github.com/AntonKuzminRussia/web-scout) . Install next packages for Python2: 
