@@ -26,9 +26,9 @@ Module working in «raw» and «selenium» modes.
 | --url \* |  | Yes | Yes | Target URL |
 | --params-method \* |  | Yes | Yes | Search method: GET, POST, COOKIES, FILES |
 | --max-params-length \* |  | Yes | Yes | For GET and POST this is maximum params string length, with their values \(a=1&b=1&c=1...\). For COOKIES and FILES it\`s a check names count per once. I recommend value of «--max-params-length» for GET and POST - 1000. For COOKIES and FILES — 20. |
-| --dict \* |  | Yes | Yes | For ParamsBruterDict. Path to dictionary. |
-| --mask \* |  | Yes | Yes | For ParamsBruterMask. Symbols mask. |
-| --combine-template \* |  | Yes | Yes | For ParamsBruterCombine. Template for combined work. String with markers «%m%» and «%d%», which is place for dict word and mask word. |
+| --dict \* |  | Yes | Yes | For ParamsDict. Path to dictionary. |
+| --mask \* |  | Yes | Yes | For ParamsMask. Symbols mask. |
+| --combine-template \* |  | Yes | Yes | For ParamsCombine. Template for combined work. String with markers «%m%» and «%d%», which is place for dict word and mask word. |
 | --value | 1 | Yes | Yes | Values of params |
 | --not-found-re |  | Yes | Yes | RegEx \(python.re\) for check negative web-server response  \(code 404 analogue\) |
 | --not-found-size |  | Yes | Yes | Size of negative answer \(code 404 analogue\). Remember, this size can be different in different tools. Use test mode for get right size. |
