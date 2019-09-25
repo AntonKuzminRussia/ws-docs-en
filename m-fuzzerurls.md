@@ -6,6 +6,14 @@ Module using for URLs params fuzzing. It works by GET mode at this time. You mus
 
 Module works in «raw» and «selenium» modes.
 
+## Examples
+
+URLs params fuzzing:
+
+```text
+./main.py FuzzerUrls --urls-file bases/demo/fuzzer-urls.txt
+```
+
 ## Options \(\* - necessary\)
 
 {% hint style="info" %}

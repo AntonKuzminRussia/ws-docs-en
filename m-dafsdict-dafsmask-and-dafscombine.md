@@ -19,6 +19,45 @@ Module can search objects by mask, dictionary and by combination \(mask + dict\)
 
 Module working in «raw» and «selenium» modes.
 
+### Examples
+
+Simple search by dict:
+
+```text
+./main.py UrlsDict --template http://simple.polygon.web-scout.online/@ --dict bases/demo/dict.txt
+```
+
+Search by dict in selenium mode:
+
+```text
+./main.py UrlsDict --template http://selenium.polygon.web-scout.online/@ --dict bases/demo/dict.txt --selenium 1 --browser-wait-re "checking" --not-found-re "Not Found"
+```
+
+Search on site with 200 response on not found pages requests:
+
+```text
+./main.py UrlsDict --template http://always-200.polygon.web-scout.online/@ --dict bases/demo/dict.txt --not-found-re "Page not found"
+```
+
+Search with response code 500 like 404:
+
+```text
+./main.py UrlsDict --template http://always-500.polygon.web-scout.online/@ --dict bases/demo/dict.txt --not-found-codes 500
+```
+
+Search with retry request if response code is 503:
+
+```text
+./main.py UrlsDict --template http://sometimes-503.polygon.web-scout.online/@ --dict bases/demo/dict.txt --retest-codes 503
+```
+
+Search with retry request if response contains phrase "Too big load":
+
+```text
+./main.py UrlsDict --template http://sometimes-503.polygon.web-scout.online/@ --dict bases/demo/dict.txt --retest-re "Too big load"
+```
+
+
 ## Options \(\* - necessary\)
 
 {% hint style="info" %}
