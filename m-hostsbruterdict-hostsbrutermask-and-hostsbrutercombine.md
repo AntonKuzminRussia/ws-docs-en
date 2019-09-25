@@ -13,22 +13,22 @@ Module works only in «raw» mode.
 Searching virtual hosts on IP:
 
 ```text
-./main.py HostsDict --ip 82.146.56.21 --dict bases/demo/dict.txt --template @.hostsbrute.polygon.web-scout.online --false-re "Ubuntu Default Page" 
+./main.py HostsDict --ip 82.146.56.21 --dict bases/demo/dict.txt --template @.hostsbrute.polygon.web-scout.online --false-re "Ubuntu Default Page"
 ```
 
 ## Options \(\* - necessary\)
 
-| Name | By default | Description | 
-| :--- | :--- | :--- | 
+| Name | By default | Description |
+| :--- | :--- | :--- |
 | --template \* |  | Template for work with mark symbol \(@ by default\) in place, where target phrase will be put. Examples:  «@.site.com», «@-admin.site.com». |
-| --dict \* |  | For HostsBruterDict. Path to dict. | 
-| --mask \* |  | For HostsBruterMask. Symbols mask. | 
-| --combine-template \* |  | For HostsBruterCombine. Template for combined work. String with markers «%m%» and «%d%», which is place for dict word and mask word. |  
-| --ip \* |  | Traget IP. |  
-| --false-re \* |  |  RegEx \(python.re\) for detect negative answers. |
-| --false-size \* |   | Size of negative answer \(code 404 analogue\). Remember, this size can be different in different tools. Use test mode for get right size. |
-| --http-protocol | http | Protocol for requests sending. http/https. |  
-| --msymbol | @ | Mark symbol for search template \(--template\) |  
+| --dict \* |  | For HostsBruterDict. Path to dict. |
+| --mask \* |  | For HostsBruterMask. Symbols mask. |
+| --combine-template \* |  | For HostsBruterCombine. Template for combined work. String with markers «%m%» and «%d%», which is place for dict word and mask word. |
+| --ip \* |  | Traget IP. |
+| --false-re \* |  | RegEx \(python.re\) for detect negative answers. |
+| --false-size \* |  | Size of negative answer \(code 404 analogue\). Remember, this size can be different in different tools. Use test mode for get right size. |
+| --http-protocol | http | Protocol for requests sending. http/https. |
+| --msymbol | @ | Mark symbol for search template \(--template\) |
 | --proxies |  | HTTP-proxy list. |
 | --retest-re |  | RegEx \(python.re\) for check if request repeat is need. For example «Service Temporarily Unavailable». |
 | --retest-codes |  | Set of status codes \(separated by comma\) as signature for request re-send. |
@@ -39,6 +39,6 @@ Searching virtual hosts on IP:
 | --threads | 10 | Work threads count. |
 | --parts | 0 | Split on X parts target dict or mask. |
 | --part | 0 | Which part number we using in work? |
-| --test | 0  | Test mode enable |
+| --test | 0 | Test mode enable |
 | --xml-report | 0 | Path to save xml-report |
 

@@ -35,7 +35,6 @@ Bruteforce form in selenium mode:
 ./main.py Forms --url http://selenium.polygon.web-scout.online/admin.php --dict bases/demo/dict.txt --conf-file bases/demo/form-brute.conf --false-re "User: " --login admin --selenium 1 --browser-wait-re "checking"
 ```
 
-
 ## Options \(\* - necessary\)
 
 {% hint style="info" %}

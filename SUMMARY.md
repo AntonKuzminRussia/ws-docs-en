@@ -24,4 +24,5 @@
 * [Troubleshooting](troubleshooting.md)
 * [Attention](attention.md)
 * [Authors / Contacts](authors-contacts.md)
+* [Quick Start](quick-start.md)
 

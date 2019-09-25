@@ -16,7 +16,7 @@ Module working in «raw» and «selenium» modes.
 
 ## Examples
 
-Params search by GET method (in URL):
+Params search by GET method \(in URL\):
 
 ```text
 ./main.py ParamsDict --url http://simple.polygon.web-scout.online/params-bruter-dict-get.php --dict bases/demo/dict.txt --max-params-length 1000 --params-method GET --not-found-re NOT

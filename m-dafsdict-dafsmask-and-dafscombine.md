@@ -57,7 +57,6 @@ Search with retry request if response contains phrase "Too big load":
 ./main.py UrlsDict --template http://sometimes-503.polygon.web-scout.online/@ --dict bases/demo/dict.txt --retest-re "Too big load"
 ```
 
-
 ## Options \(\* - necessary\)
 
 {% hint style="info" %}
