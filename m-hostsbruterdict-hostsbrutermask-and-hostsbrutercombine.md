@@ -16,6 +16,12 @@ Searching virtual hosts on IP:
 ./main.py HostsDict --ip 82.146.56.21 --dict bases/demo/dict.txt --template @.hostsbrute.polygon.web-scout.online --false-re "Ubuntu Default Page"
 ```
 
+Searching virtual hosts on IP by mask:
+
+```text
+./main.py HostsMask --ip 82.146.56.21 --mask ?l,1,4 --template @.hostsbrute.polygon.web-scout.online --false-re "Ubuntu Default Page"
+```
+
 ## Options \(\* - necessary\)
 
 | Name | By default | Description |

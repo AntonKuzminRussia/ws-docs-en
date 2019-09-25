@@ -22,6 +22,12 @@ Simple subdomains search:
 ./main.py DnsDict --template @.standart-zone.polygon.web-scout.online --dict bases/demo/dict.txt
 ```
 
+Simple subdomains search by mask:
+
+```text
+./main.py DnsMask --template @.standart-zone.polygon.web-scout.online --mask ?l,1,4
+```
+
 Searching subdomains in wildcard-zone with default IP ignoring:
 
 ```text
