@@ -1,6 +1,7 @@
 # Table of contents
 
 * [About](README.md)
+* [Quick Start](quick-start.md)
 * [System requirements](system-requirements.md)
 * [Install](install.md)
 * [Work modes](work-modes.md)
