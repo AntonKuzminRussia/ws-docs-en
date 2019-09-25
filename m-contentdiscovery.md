@@ -36,13 +36,20 @@ In current time modifying only first and last digits in name. For example, in «
 
 If letter in the beginning of the name, module generate variants with all letters in same case at this place \(admin =&gt; bdmin, cdmin, …, zdmin\). With letter in the end, same logic \(admin =&gt; admia,...,admib\). Names of files modifying before extensions \(admin.php =&gt; admia.php, …, admiz.php\).
 
+## Examples
+
+Discovery new URLs:
+
+```text
+./main.py ContentDiscovery --template http://simple.polygon.web-scout.online/@ --urls-file bases/demo/cd-urls.txt 
+```
+
+
 ## Options
 
 {% hint style="info" %}
 All other options you may get in DafsDict docs
 {% endhint %}
-
-## Options \(\* - necessary\)
 
 {% hint style="info" %}
 **R** - available in raw mode  

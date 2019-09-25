@@ -8,7 +8,7 @@ Module can search objects by mask, dictionary and by combination \(mask + dict\)
 
 Module works only in «raw» mode.
 
-## Примеры
+## Examples
 
 Searching virtual hosts on IP:
 
