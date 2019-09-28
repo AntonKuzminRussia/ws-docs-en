@@ -11,7 +11,7 @@ Module works in «raw» and «selenium» modes.
 URLs params fuzzing:
 
 ```text
-./main.py FuzzerUrls --urls-file bases/demo/fuzzer-urls.txt
+./ws.py FuzzerUrls --urls-file bases/demo/fuzzer-urls.txt
 ```
 
 ## Options \(\* - necessary\)

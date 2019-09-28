@@ -19,19 +19,19 @@ Module working in «raw» and «selenium» modes.
 Params search by GET method \(in URL\) by dict:
 
 ```text
-./main.py ParamsDict --url http://simple.polygon.web-scout.online/params-bruter-dict-get.php --dict bases/demo/dict.txt --max-params-length 1000 --params-method GET --not-found-re NOT
+./ws.py ParamsDict --url http://simple.polygon.web-scout.online/params-bruter-dict-get.php --dict bases/demo/dict.txt --max-params-length 1000 --params-method GET --not-found-re NOT
 ```
 
 Params search by GET method \(in URL\) by mask:
 
 ```text
-./main.py ParamsMask --url http://simple.polygon.web-scout.online/params-bruter-dict-get.php --mask ?l,1,2 --max-params-length 1000 --params-method GET --not-found-re NOT
+./ws.py ParamsMask --url http://simple.polygon.web-scout.online/params-bruter-dict-get.php --mask ?l,1,2 --max-params-length 1000 --params-method GET --not-found-re NOT
 ```
 
 Searching params of file upload script:
 
 ```text
-./main.py ParamsDict --url http://simple.polygon.web-scout.online/params-bruter-dict-files.php --dict bases/demo/dict.txt --max-params-length 10 --params-method FILES --not-found-re NOT
+./ws.py ParamsDict --url http://simple.polygon.web-scout.online/params-bruter-dict-files.php --dict bases/demo/dict.txt --max-params-length 10 --params-method FILES --not-found-re NOT
 ```
 
 ## Options \(\* - necessary\)

@@ -1,6 +1,6 @@
 # Run
 
-WS running by ./main.py with args. First argument is module name. If you specify wrong module name, WS show help with modules list.
+WS running by ./ws.py with args. First argument is module name. If you specify wrong module name, WS show help with modules list.
 
 ```text
 ERROR: Module 'FooBar' not exists!
@@ -23,12 +23,12 @@ Possible modules:
     ParamsBruterMask
 ```
 
-After that specify parameters and their values. If necessarily parameters not specified, of wrong params specified, WS show help with modules params list. You can see it by run module with param «-h». «./main.py DafsDict -h» for example.
+After that specify parameters and their values. If necessarily parameters not specified, of wrong params specified, WS show help with modules params list. You can see it by run module with param «-h». «./ws.py DafsDict -h» for example.
 
 ```text
-$ ./main.py DafsDict -h
+$ ./ws.py DafsDict -h
 
-usage: ./main.py DafsDict [-h] [--found-re FOUND-RE]
+usage: ./ws.py DafsDict [-h] [--found-re FOUND-RE]
                           [--not-found-size NOT-FOUND-SIZE]
                           [--retest-codes RETEST-CODES]
                           [--browser-wait-re BROWSER-WAIT-RE]
@@ -90,8 +90,8 @@ optional arguments:
 All parameters exclude «-h» have only long form \(«--param»\). You can specify those values standardly — through space \(--param value\), with equal sign \(--param=value\), in single or double quotes \(--param 'value'\). For example, next two commands are equal:
 
 ```text
-./main.py DafsDict --template http://site.com/@  --dict=1.txt 
-./main.py DafsDict --template 'http://site.com/@' --dict "1.txt"
+./ws.py DafsDict --template http://site.com/@  --dict=1.txt 
+./ws.py DafsDict --template 'http://site.com/@' --dict "1.txt"
 ```
 
 Every param must have value. Many tools allow you specify only param name if you want set it to true \(--param\). And if you not specify it, param understand as False. But in WS it not so. «--param=1» - param set in True, «--param=0» - param set in False. If param not specified, WS get value by default.

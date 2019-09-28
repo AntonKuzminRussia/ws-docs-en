@@ -11,7 +11,7 @@ Module work only in «raw» mode.
 URLs headers fuzzing:
 
 ```text
-./main.py FuzzerHeaders --urls-file bases/demo/fuzzer-headers.txt
+./ws.py FuzzerHeaders --urls-file bases/demo/fuzzer-headers.txt
 ```
 
 ## Options \(\* - necessary\)

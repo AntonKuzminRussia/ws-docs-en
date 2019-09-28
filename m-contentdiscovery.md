@@ -41,7 +41,7 @@ If letter in the beginning of the name, module generate variants with all letter
 Discovery new URLs:
 
 ```text
-./main.py ContentDiscovery --template http://simple.polygon.web-scout.online/@ --urls-file bases/demo/cd-urls.txt 
+./ws.py ContentDiscovery --template http://simple.polygon.web-scout.online/@ --urls-file bases/demo/cd-urls.txt 
 ```
 
 

@@ -19,25 +19,25 @@ Working only raw mode.
 Simple subdomains search:
 
 ```text
-./main.py DnsDict --template @.standart-zone.polygon.web-scout.online --dict bases/demo/dict.txt
+./ws.py DnsDict --template @.standart-zone.polygon.web-scout.online --dict bases/demo/dict.txt
 ```
 
 Simple subdomains search by mask:
 
 ```text
-./main.py DnsMask --template @.standart-zone.polygon.web-scout.online --mask ?l,1,4
+./ws.py DnsMask --template @.standart-zone.polygon.web-scout.online --mask ?l,1,4
 ```
 
 Searching subdomains in wildcard-zone with default IP ignoring:
 
 ```text
-./main.py DnsDict --template @.wildcard-ip.polygon.web-scout.online --dict bases/demo/dict.txt --ignore-ip 8.8.8.8
+./ws.py DnsDict --template @.wildcard-ip.polygon.web-scout.online --dict bases/demo/dict.txt --ignore-ip 8.8.8.8
 ```
 
 Searching subdomains in wildcard-zone by requesting it on web-server:
 
 ```text
-./main.py DnsDict --template @.wildcard-web.polygon.web-scout.online --dict bases/demo/dict.txt --http-not-found-re "Ubuntu Default Page"
+./ws.py DnsDict --template @.wildcard-web.polygon.web-scout.online --dict bases/demo/dict.txt --http-not-found-re "Ubuntu Default Page"
 ```
 
 ## Options \(\* - necessary\)
