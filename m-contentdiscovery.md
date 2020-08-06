@@ -6,6 +6,9 @@ Using for directory and files search based on popular names/exts dictionary and 
 
 Important. ContentDiscovery is dictionary generating wrap for DafsDict module. When dict is ready, WS start DafsDict module with same options \(which you run ContentDiscovery\). It mean, ContentDiscovery has logic and params of DafsDict. It has only two own params described below.
 
+In config.ini you can find skip_listing option. If it enabled (by default), WS will not work with 
+directory listing (if target URL it is index of directory).
+
 ## Dictionary generation
 
 In start of work module generate dictionary with creating words by next schemes:

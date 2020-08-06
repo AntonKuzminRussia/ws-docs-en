@@ -19,6 +19,9 @@ Module can search objects by mask, dictionary and by combination \(mask + dict\)
 
 Module working in «raw» and «selenium» modes.
 
+In config.ini you can find skip_listing option. If it enabled (by default), WS will not work with 
+directory listing (if target URL it is index of directory).
+
 ### Examples
 
 Simple search by dict:
