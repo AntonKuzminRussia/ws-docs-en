@@ -55,6 +55,7 @@ Searching params of file upload script:
 | --proxies |  | Yes | Yes | HTTP-proxy list. |
 | --retest-re |  | Yes | Yes | RegEx \(python.re\) for check if request repeat is need. For example «Service Temporarily Unavailable». |
 | --retest-codes |  | Yes | No | Set of status codes \(separated by comma\) as signature for request re-send. |
+| --bruterforce-method | POST | Yes | No | Bruteforce method (GET/POST) |
 | --headers-file |  | Yes | No | File with HTTP headers for put it in work requests. |
 | --ignore-words-re |  | Yes | Yes | RegEx \(python.re\) for ignoring target phrases. May be useful when you don't want check some phrases, for example contains “.ht”. |
 | --msymbol | @ | Yes | Yes | Mark symbol for search template \(--template\) |
