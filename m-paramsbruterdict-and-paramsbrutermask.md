@@ -52,7 +52,6 @@ Searching params of file upload script:
 | --value | 1 | Yes | Yes | Values of params |
 | --not-found-re |  | Yes | Yes | RegEx \(python.re\) for check negative web-server response  \(code 404 analogue\) |
 | --not-found-size |  | Yes | Yes | Size of negative answer \(code 404 analogue\). Remember, this size can be different in different tools. Use test mode for get right size. |
-| --not-found-codes |  | Yes | No | Status codes, analogues of 404. Separated by comma. |
 | --proxies |  | Yes | Yes | HTTP-proxy list. |
 | --retest-re |  | Yes | Yes | RegEx \(python.re\) for check if request repeat is need. For example «Service Temporarily Unavailable». |
 | --retest-codes |  | Yes | No | Set of status codes \(separated by comma\) as signature for request re-send. |
